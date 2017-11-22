@@ -1,0 +1,6 @@
+CursorType=block
+FontHeight=11
+Term=xterm-256color
+BackgroundColour=28,28,28
+Font="Droid Sans Mono for Powerline"
+Locale=en_GB
