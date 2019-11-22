@@ -69,7 +69,14 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode)
+plugins=(
+	git
+	vi-mode
+	cp
+	zsh-syntax-highlighting
+	zsh-autosuggestions
+	zsh-256color
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,7 +113,8 @@ source $ZSH/oh-my-zsh.sh
  alias q=exit
  alias usb="cd e:"
  alias cyg="cd c:"
-
+ alias open=cygstart
+ alias get=apt-cyg 
 bindkey -M viins 'jk' vi-cmd-mode
 bindkey -M viins 'kj' vi-cmd-mode
 

@@ -1,5 +1,5 @@
 CursorType=block
-FontHeight=11
+FontHeight=9
 Term=xterm-256color
 BackgroundColour=28,28,28
 Font=Hack

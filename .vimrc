@@ -1,10 +1,15 @@
 set nocompatible              " be iMproved, required
+set foldmethod=indent   
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-=======
+
  set rtp+=~/.vim/bundle/Vundle.vim
  call vundle#begin()
 
